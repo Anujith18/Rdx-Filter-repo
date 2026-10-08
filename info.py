@@ -103,7 +103,7 @@ OWNER_UPI_ID = environ.get('OWNER_UPI_ID', '@Ordinary_helper')
 # ============================
 # MongoDB Configuration
 # ============================
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Filter:Filter@cluster0.9kke2jw.mongodb.net/?appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://")
 DATABASE_URI2 = environ.get('DATABASE_URI2', DATABASE_URI)
 DATABASE_NAME = environ.get('DATABASE_NAME', "cluster")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Deendayal_files')
@@ -185,7 +185,7 @@ VERIFY_TIMEZONE = environ.get('VERIFY_TIMEZONE', 'Asia/Kolkata')
 VERIFY_POSTER = environ.get('VERIFY_POSTER', 'https://graph.org/file/c213a7752d698c28223da-062adb9b9133cc3a88.jpg')
 VERIFIED_POSTER = environ.get('VERIFIED_POSTER', 'https://graph.org/file/7b23c5bd460c2d3c212a0-d68e5116cf1f23d450.jpg')
 DEENDAYAL_VERIFIED_LOG = int(environ.get('DEENDAYAL_VERIFIED_LOG', '-1004411706616'))  # Log channel id (make sure bot is admin)
-HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+VBxO70jODFs1YzY0')  # How to open tutorial link for verification
+HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/+VBxO70jO1YzY0')  # How to open tutorial link for verification
 
 # ============================
 # Anti-Bypass Configuration
@@ -200,7 +200,7 @@ ANTI_BYPASS_REQUEST_TIMEOUT = int(environ.get('ANTI_BYPASS_REQUEST_TIMEOUT', '20
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortxlinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+VBxO70jODFs1YzY0')  # Tutorial video link for opening shortlink website
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/+O70jODFs1YzY0')  # Tutorial video link for opening shortlink website
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 
 # ============================
